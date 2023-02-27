@@ -36,28 +36,36 @@
                 Search
               </button>
             </div>
+
+            <!-- spinner -->
+            <div id="spinner" class="d-flex justify-content-center d-none mb-4">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+
+            <div
+              id="player-info"
+              class="row row-cols-1 row-cols-md-2 g-4"
+            ></div>
             <div id="spinner" class="d-flex justify-content-center my-5 d-none">
               <div class="spinner-border" role="status">
                 <span class="visually-hidden">Loading...</span>
               </div>
             </div>
-            <div
-              id="player-info"
-              class="row row-cols-1 row-cols-md-2 g-4"
-            ></div>
           </div>
 
           <div class="col-lg-6 my-5">
             <h1>Right Side</h1>
             <div>
               <img
-                id="males-team"
+                id="males"
                 class="w-75 h-50 my-2 d-none"
                 src="./img/male.jpeg"
                 alt=""
               />
               <img
-                id="females-team"
+                id="females"
                 class="w-75 h-50 d-none"
                 src="./img/female.jpg"
                 alt=""
